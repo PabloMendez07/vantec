@@ -178,3 +178,66 @@ footer {
     height: 100px;
   }
 }
+
+.pdf-section {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+}
+
+.pdf-section h2 {
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.pdf-section p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pdf-actions .btn-pdf {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #0d47a1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.pdf-actions .btn-pdf:hover {
+  background-color: #1565c0;
+}
+
+.boton-wsp {
+  position: fixed;
+  bottom: 60px; /* Antes era algo como 20px */
+  right: 20px;
+  z-index: 1000;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.boton-wsp img {
+  width: 36px;
+  height: 36px;
+}
+
+.descargar-pdf {
+  color: white;
+  background-color: #0d47a1;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.descargar-pdf:hover {
+  background-color: #1565c0;
+}
